@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = HelpMePopulate::VERSION
   spec.authors       = ["Rui Baltazar"]
   spec.email         = ["rui.p.baltazar@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "Manage your database populating process more easily"
+  spec.description   = "This gem is intended to help you managing the data handling on migrations"
   spec.homepage      = ""
   spec.license       = "MIT"
 
