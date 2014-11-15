@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'help_me_populate/version'
+require 'populmaid/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "help_me_populate"
-  spec.version       = HelpMePopulate::VERSION
+  spec.name          = "populmaid"
+  spec.version       = Populmaid::VERSION
   spec.authors       = ["Rui Baltazar"]
   spec.email         = ["rui.p.baltazar@gmail.com"]
   spec.summary       = "Manage your database populating process more easily"
