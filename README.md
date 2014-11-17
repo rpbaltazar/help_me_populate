@@ -1,6 +1,13 @@
+Version 0.0.0_a
+
 # Populmaid
 
-TODO: Write a gem description
+Populmaid is a gem that intends to help you handling population of the database.
+
+There are a couple of ways for handling the automatic population of the database, but handling database schema changes and keep the populations up to date, is sometimes difficult.
+
+[To be continued ...]
+
 
 ## Installation
 
@@ -18,7 +25,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+  ### Setup Populmaid in your project:
+    rails g populmaid:install
+
+  This will create you a folder called populate under db/
+  In this folder you should put all your population scripts.
+
+  ### Generate a population:
+    rails g populmaid:generate populateThisAwesomeTable
+
+  This will generate a population file under db/populate
+    db/populate/<timestamp>_populate_this_awesome_table.rb
+
 
 ## Contributing
 
