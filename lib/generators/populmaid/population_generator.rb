@@ -1,6 +1,6 @@
 module Populmaid
   module Generators
-    class PopulateGenerator < Rails::Generators::Base
+    class PopulationGenerator < Rails::Generators::Base
       source_root File.expand_path('../templates', __FILE__)
       argument :population_name, type: :string
 
