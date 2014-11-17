@@ -6,7 +6,7 @@ module Populmaid
 
       def generate_populate_folder
         if File.directory? "#{Rails.root}/db/populate"
-          template "population_template", "#{Rails.root}/db/populate/#{filename_timestamped}"
+          template "population_template.erb", "#{Rails.root}/db/populate/#{filename_timestamped}"
         else
           p <<-FEEDBACK
           You haven't setup the gem yet. Please run:
