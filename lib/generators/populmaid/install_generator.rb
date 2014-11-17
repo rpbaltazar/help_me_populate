@@ -11,13 +11,6 @@ module Populmaid
         # template "template_filename", "final_directory" # With this we can pass arguments to the template
         # if option_name ...
       end
-
-
-      private
-
-      def template_name
-        "#{DateTime.now.to_i}_#{arg_name.underscore}"
-      end
     end
   end
 end
