@@ -4,6 +4,8 @@ module Populmaid
       source_root File.expand_path('../templates', __FILE__)
       argument :population_name, type: :string
 
+      class_option :deprecates, type: :string, aliases: :d, desc: "Deprecates the correspondent populations, based on the passed list of timestamps or population names"
+
       def generate_populate_folder
         if File.directory? "#{Rails.root}/db/populate"
           template "population_template.erb", "#{Rails.root}/db/populate/#{filename_timestamped}"
