@@ -1,3 +1,3 @@
 module Populmaid
-  VERSION = "0.0.0"
+  VERSION = "0.0.0_a"
 end
