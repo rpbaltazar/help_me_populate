@@ -4,9 +4,14 @@ Version 0.0.0_a
 
 Populmaid is a gem that intends to help you handling population of the database.
 
-There are a couple of ways for handling the automatic population of the database, but handling database schema changes and keep the populations up to date, is sometimes difficult.
+There are a couple of ways for handling the automatic population of the database,
+but handling database schema changes and keep the populations up to date, is sometimes difficult.
 
 [To be continued ...]
+
+
+Situations where you want to add constraints straight in the DB and not rely
+solely on rails
 
 
 ## Installation
